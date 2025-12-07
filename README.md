@@ -2,7 +2,7 @@
 
 > Advanced AI-powered forecasting and conversational intelligence for olive oil market analysis
 
-🌐 **Website:** [https://yourusername.github.io/o-live](https://yourusername.github.io/o-live)
+🌐 **Website:** [https://ericarobeen.github.io/o-live](https://ericarobeen.github.io/o-live)
 
 ## Overview
 
