@@ -4,13 +4,16 @@
 
 🌐 **Website:** [https://ericarobeen.github.io/o-live](https://ericarobeen.github.io/o-live)
 
+📅 **Live Presentation:** Monday, December 9, 2025 | 6:30-8:00 PM PST  
+🔗 **Zoom Link:** [https://berkeley.zoom.us/j/94855404992](https://berkeley.zoom.us/j/94855404992)
+
 ## Overview
 
 A comprehensive multi-agent AI platform that combines advanced machine learning forecasting with conversational intelligence, providing both technical depth for analysts and natural language accessibility for business users.
 
 ## 🎯 Mission Statement
 
-Deliver the first comprehensive AI-driven solution for olive oil market intelligence, combining advanced machine learning forecasting with conversational AI to enable data-driven decision making in agricultural commodity markets.
+Help olive oil buyers find the best suppliers by modeling market trends and forecasting prices under different scenarios, making the procurement process more transparent through AI-powered market intelligence.
 
 ## 🏗️ Architecture
 
@@ -58,23 +61,13 @@ The system provides real market intelligence:
 
 ## 🎮 Try It Yourself
 
-### ML Forecasting Dashboard
-Technical interface for data scientists and analysts:
-```bash
-streamlit run brandon_original_dashboard.py
-```
-
-### Integrated AI Platform
-Complete solution with conversational AI:
+### O-Live AI Platform Demo
+Interactive demonstration combining ML forecasting with conversational AI for comprehensive market intelligence:
 ```bash
 streamlit run integrated_olive_dashboard.py
 ```
 
-### Conversational AI Only
-Standalone Bedrock agent demo:
-```bash
-streamlit run standalone_agent_demo.py
-```
+Explore price predictions, market drivers, and natural language queries in one unified interface.
 
 ## 📁 Repository Structure
 
@@ -120,14 +113,67 @@ streamlit run standalone_agent_demo.py
 4. **Deployment**: SageMaker endpoint deployment
 5. **Monitoring**: Performance tracking and alerting
 
+## 📊 Data
+
+Multi-source dataset combining retail prices, macroeconomic indicators, freight indices, and tariff schedules, creating a comprehensive week-by-week view of global olive oil markets.
+
+### Multi-Source Dataset
+- **Retail Prices**: Weekly olive oil prices across grades and countries
+- **Macroeconomic Indicators**: Diesel prices, currency exchange rates
+- **Freight Indices**: Ocean shipping costs and logistics data
+- **Tariff Schedules**: Trade policy and import/export regulations
+
+### Automated Data Pipeline
+Fully automated, quality-controlled data pipeline that:
+- Standardizes formats across diverse sources
+- Aligns weekly timestamps for temporal consistency
+- Validates ranges with automated quality checks
+- Produces reliable, ML-ready economic panel for forecasting and supply-chain insights
+
+## 🤖 Model
+
+Advanced machine learning architecture deployed on AWS SageMaker for scalable, production-ready forecasting.
+
+### Ridge Regression
+Regularized linear model that handles multicollinearity in market drivers while maintaining interpretability:
+- Handles correlated features effectively
+- Provides confidence intervals for predictions
+- Interpretable coefficients for market analysis
+
+### Feature Engineering
+Sophisticated preprocessing pipeline capturing temporal patterns and market dynamics:
+- Lag features for time series patterns
+- Rolling averages for trend smoothing
+- Seasonal indicators for cyclical patterns
+- Market driver interactions
+
+### AWS SageMaker Deployment
+Production-ready ML pipeline with automated training, versioning, and real-time inference endpoints for scalable predictions.
+
 ## 👥 Team
 
-- **Erica**: AI/ML Engineering - Bedrock conversational AI, Lambda tools, multi-agent orchestration
-- **Brandon**: ML Engineering - SageMaker ML pipeline, forecasting models, data engineering
+Built by students in the [UC Berkeley MIDS](https://www.ischool.berkeley.edu/programs/mids) program:
+
+- **[Brandon Gillenwaters](https://www.linkedin.com/in/brandon-gillenwaters/)** - SageMaker ML pipeline, forecasting models, data engineering
+- **[Erica Robeen](https://www.linkedin.com/in/erica-robeen/)** - Conversational AI, multi-agent orchestration, Lambda tools
+- **[Mahesh Nidhruva](https://www.linkedin.com/in/mahesh-nidhruva/)** - Supply chain analytics, market analysis, procurement optimization
+- **[Patrick Abousleiman](https://www.linkedin.com/in/patrick-abousleiman/)** - Data engineering, infrastructure, pipeline development
+- **[Rebecca Baugh](https://www.linkedin.com/in/rebecca-baugh/)** - Team coordination, stakeholder engagement, project development
+
+### Special Thanks to Our Project Advisors
+
+**UC Berkeley MIDS Program:**
+- [Joyce Shen](https://www.linkedin.com/in/joycejshen/)
+- [Korin Reid](https://www.linkedin.com/in/korin-reid-ph-d-b4102a17/)
+
+**Subject Matter Experts:**
+- [Audra Kamp](https://www.linkedin.com/in/audrateel/)
+- [Thomas Anderson](https://www.linkedin.com/in/thomas-anderson-/)
+- [Ravi Siddappa](https://www.linkedin.com/in/rsiddappa/)
 
 ## 🎓 Academic Context
 
-This project was developed as part of an AI/ML program, demonstrating:
+This project was developed as part of the UC Berkeley Master of Information and Data Science (MIDS) program, demonstrating:
 - Enterprise-grade AWS architecture
 - Production-ready multi-agent systems
 - Real-world application to commodity markets
@@ -155,13 +201,6 @@ This project was developed as part of an AI/ML program, demonstrating:
 - Mobile application development
 - API marketplace for third-party integration
 
-## 📞 Contact
-
-For questions, collaboration, or technical details:
-- 📧 Email: [your-email@example.com]
-- 💼 LinkedIn: [Your LinkedIn Profile]
-- 🐙 GitHub: [Your GitHub Profile]
-
 ---
 
-*Built with ❤️ using AWS AI/ML services*
+*Built with 🫒 using AWS AI/ML services by UC Berkeley MIDS students*
