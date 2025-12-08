@@ -9,7 +9,7 @@
 
 ## Overview
 
-A comprehensive multi-agent AI platform that combines advanced machine learning forecasting with conversational intelligence, providing both technical depth for analysts and natural language accessibility for business users.
+A comprehensive AI platform that combines advanced machine learning forecasting with conversational intelligence, providing both technical depth for analysts and natural language accessibility for business users.
 
 ## 🎯 Mission Statement
 
@@ -17,10 +17,10 @@ Help olive oil buyers find the best suppliers by modeling market trends and fore
 
 ## 🏗️ Architecture
 
-### Multi-Agent System
-- **Monitoring Agent**: Automated data quality monitoring with daily health checks
-- **Retraining Agent**: Automated model retraining pipeline for forecast accuracy
-- **Conversational Agent**: AWS Bedrock-powered natural language interface
+### Agent-Based Architecture
+- **Conversational AI Agent**: AWS Bedrock-powered agent with natural language interface for market queries
+- **Monitoring Agent**: Automated data quality monitoring with daily health checks and alerting
+- **Retraining Agent**: Automated model retraining pipeline that maintains forecast accuracy
 
 ### Technical Stack
 - **ML Pipeline**: AWS SageMaker with Ridge Regression models
@@ -38,17 +38,18 @@ Help olive oil buyers find the best suppliers by modeling market trends and fore
 - Seasonal pattern recognition and trend analysis
 - Real-time model performance monitoring
 
-### Conversational AI Assistant
+### Conversational AI Agent
+AWS Bedrock-powered agent that provides natural language access to market intelligence:
 - Natural language queries: *"What will Italian olive oil cost next month?"*
 - Market comparison: *"Compare Italian and Spanish prices"*
 - Price driver analysis: *"Why are prices changing?"*
-- Real-time responses with data-backed insights
+- Real-time responses with data-backed insights from Lambda function tools
 
-### Automated Operations
-- Daily data freshness monitoring
-- Automated model retraining when performance degrades
+### Automated Agent Operations
+- **Monitoring Agent**: Daily data freshness checks and quality validation
+- **Retraining Agent**: Automated model updates when performance degrades
 - Email alerts for system anomalies
-- Continuous integration/deployment pipeline
+- Event-driven orchestration with AWS EventBridge
 
 ## 📊 Live Demo Results
 
@@ -134,7 +135,7 @@ Production-ready ML pipeline with automated training, versioning, and real-time 
 Built by students in the [UC Berkeley MIDS](https://www.ischool.berkeley.edu/programs/mids) program:
 
 - **[Brandon Gillenwaters](https://www.linkedin.com/in/brandon-gillenwaters/)** - SageMaker ML pipeline, forecasting models, data engineering
-- **[Erica Robeen](https://www.linkedin.com/in/erica-robeen/)** - Conversational AI, multi-agent orchestration, Lambda tools
+- **[Erica Robeen](https://www.linkedin.com/in/erica-robeen/)** - Conversational AI, system orchestration, Lambda tools
 - **[Mahesh Nidhruva](https://www.linkedin.com/in/mahesh-nidhruva/)** - Supply chain analytics, market analysis, procurement optimization
 - **[Patrick Abousleiman](https://www.linkedin.com/in/patrick-abousleiman/)** - Data engineering, infrastructure, pipeline development
 - **[Rebecca Baugh](https://www.linkedin.com/in/rebecca-baugh/)** - Team coordination, stakeholder engagement, project development
@@ -154,7 +155,7 @@ Built by students in the [UC Berkeley MIDS](https://www.ischool.berkeley.edu/pro
 
 This project was developed as part of the UC Berkeley Master of Information and Data Science (MIDS) program, demonstrating:
 - Enterprise-grade AWS architecture
-- Production-ready multi-agent systems
+- Production-ready AI/ML systems with automated operations
 - Real-world application to commodity markets
 - Integration of multiple AI/ML services
 
