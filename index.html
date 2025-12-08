@@ -214,36 +214,39 @@ I'm <!DOCTYPE html>
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 mx-auto text-center">
-                    <h2 class="mb-4">Data</h2>
-                    <p class="lead">Our forecasting models are trained on comprehensive historical olive oil market data spanning multiple years, countries, and product grades.</p>
+                    <h2 class="mb-4">The Data</h2>
+                    <p class="lead">Multi-source dataset combining retail prices, macroeconomic indicators, freight indices, and tariff schedules, creating a comprehensive week-by-week view of global olive oil markets.</p>
                 </div>
             </div>
             
-            <div class="row mt-4">
-                <div class="col-md-4 text-center mb-4">
-                    <div class="card h-100 shadow-sm">
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-success" style="border-width: 2px;">
                         <div class="card-body">
                             <i class="fas fa-database feature-icon"></i>
-                            <h5>Historical Prices</h5>
-                            <p>Weekly price data across multiple olive oil grades and countries, capturing market trends and seasonal patterns.</p>
+                            <h5>Multi-Source Dataset</h5>
+                            <p>Comprehensive integration of diverse data sources:</p>
+                            <ul class="text-start">
+                                <li><strong>Retail Prices:</strong> Weekly olive oil prices across grades and countries</li>
+                                <li><strong>Macroeconomic Indicators:</strong> Diesel prices, currency exchange rates</li>
+                                <li><strong>Freight Indices:</strong> Ocean shipping costs and logistics data</li>
+                                <li><strong>Tariff Schedules:</strong> Trade policy and import/export regulations</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-center mb-4">
-                    <div class="card h-100 shadow-sm">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-success" style="border-width: 2px;">
                         <div class="card-body">
-                            <i class="fas fa-chart-line feature-icon"></i>
-                            <h5>Market Drivers</h5>
-                            <p>Economic indicators including diesel prices, ocean freight costs, and currency exchange rates that influence olive oil markets.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center mb-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body">
-                            <i class="fas fa-globe feature-icon"></i>
-                            <h5>Global Coverage</h5>
-                            <p>Data from major olive oil producing and consuming countries including Italy, Spain, Greece, and the United States.</p>
+                            <i class="fas fa-cogs feature-icon"></i>
+                            <h5>Automated Data Pipeline</h5>
+                            <p>Fully automated, quality-controlled processing:</p>
+                            <ul class="text-start">
+                                <li><strong>Format Standardization:</strong> Unified data schemas across sources</li>
+                                <li><strong>Temporal Alignment:</strong> Weekly timestamp synchronization</li>
+                                <li><strong>Range Validation:</strong> Automated quality checks and anomaly detection</li>
+                                <li><strong>ML-Ready Output:</strong> Clean economic panel for forecasting and supply-chain insights</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -256,7 +259,7 @@ I'm <!DOCTYPE html>
         <div class="container">
             <div class="row">
                 <div class="col-lg-9 mx-auto text-center">
-                    <h2 class="mb-4">Model</h2>
+                    <h2 class="mb-4">The Model</h2>
                     <p class="lead">Advanced machine learning architecture deployed on AWS SageMaker for scalable, production-ready forecasting.</p>
                 </div>
             </div>
@@ -308,31 +311,22 @@ I'm <!DOCTYPE html>
     <section id="demo" class="section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
+                <div class="col-lg-9 mx-auto text-center">
                     <h2 class="mb-4">Experience the Platform</h2>
-                    <p class="lead">See our AI-powered olive oil market intelligence in action</p>
+                    <p class="lead">See our complete AI-powered olive oil market intelligence solution in action</p>
                 </div>
             </div>
 
             <div class="row mt-4 justify-content-center">
-                <div class="col-md-5">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <h5><i class="fas fa-chart-line me-2"></i>ML Forecasting Dashboard</h5>
-                            <p>Technical interface for data scientists and analysts with advanced ML controls and statistical analysis.</p>
-                            <a href="#" class="btn btn-primary" onclick="alert('Demo would be hosted at: streamlit run brandon_original_dashboard.py')">
-                                <i class="fas fa-external-link-alt me-2"></i>Launch ML Demo
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <h5><i class="fas fa-robot me-2"></i>Integrated AI Platform</h5>
-                            <p>Complete solution combining ML forecasting with conversational AI for business users and technical teams.</p>
-                            <a href="#" class="btn btn-success" onclick="alert('Demo would be hosted at: streamlit run integrated_olive_dashboard.py')">
-                                <i class="fas fa-external-link-alt me-2"></i>Launch Full Demo
+                <div class="col-md-8">
+                    <div class="card shadow-sm border-success" style="border-width: 3px;">
+                        <div class="card-body text-center py-5">
+                            <i class="fas fa-seedling fa-4x text-success mb-4"></i>
+                            <h4 class="mb-3">O-Live AI Platform Demo</h4>
+                            <p class="lead mb-4">Interactive demonstration combining ML forecasting with conversational AI for comprehensive market intelligence.</p>
+                            <p class="mb-4">Explore price predictions, market drivers, and natural language queries in one unified interface.</p>
+                            <a href="#" class="btn btn-success btn-lg" onclick="alert('Demo would be hosted at: streamlit run integrated_olive_dashboard.py')">
+                                <i class="fas fa-external-link-alt me-2"></i>Launch Live Demo
                             </a>
                         </div>
                     </div>
