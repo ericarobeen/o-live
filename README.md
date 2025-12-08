@@ -20,7 +20,7 @@ Help olive oil buyers find the best suppliers by modeling market trends and fore
 ### Agent-Based Architecture
 - **Conversational AI Agent**: AWS Bedrock-powered agent with natural language interface for market queries
 - **Monitoring Agent**: Automated data quality monitoring with daily health checks and alerting
-- **Retraining Agent**: Automated model retraining pipeline that maintains forecast accuracy
+- **Retraining Agent**: Automated model retraining pipeline that helps to maintain forecast accuracy using alerting
 
 ### Technical Stack
 - **ML Pipeline**: AWS SageMaker with Ridge Regression models
@@ -63,12 +63,10 @@ The system provides real market intelligence:
 ## 🎮 Try It Yourself
 
 ### O-Live AI Platform Demo
-Interactive demonstration combining ML forecasting with conversational AI for comprehensive market intelligence:
+Explore price predictions, market drivers, and natural language queries in one unified interface:
 ```bash
 streamlit run integrated_olive_dashboard.py
 ```
-
-Explore price predictions, market drivers, and natural language queries in one unified interface.
 
 ## 🔧 Technical Implementation
 
