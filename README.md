@@ -63,7 +63,13 @@ The system provides real market intelligence:
 ## 🎮 Try It Yourself
 
 ### O-Live AI Platform Demo
-Explore price predictions, market drivers, and natural language queries in one unified interface:
+
+🌐 **Live Platform:** [http://3.238.252.107:8501/](http://3.238.252.107:8501/)  
+🎥 **Demo Video:** [Watch Demo](https://github.com/ericarobeen/o-live/blob/main/demo/video3011933952.mp4)
+
+Explore price predictions, market drivers, and natural language queries in one unified interface.
+
+**Run Locally:**
 ```bash
 streamlit run integrated_olive_dashboard.py
 ```
