@@ -69,27 +69,6 @@ streamlit run integrated_olive_dashboard.py
 
 Explore price predictions, market drivers, and natural language queries in one unified interface.
 
-## 📁 Repository Structure
-
-```
-├── index.html                          # Project website
-├── README.md                           # This file
-├── agents/                             # Multi-agent system
-│   ├── monitoring_agent.py            # Data quality monitoring
-│   ├── retraining_agent.py            # Model retraining automation
-│   └── chart_generator_tool.py        # Visualization utilities
-├── bedrock_agent/                      # Conversational AI
-│   ├── tools/                         # Lambda function tools
-│   │   ├── forecast_tool_simple.py    # Price forecasting
-│   │   ├── market_comparison_tool_simple.py  # Market analysis
-│   │   └── price_drivers_tool_simple.py      # Price factor analysis
-│   └── README.md                      # Bedrock setup guide
-├── inference.py                        # SageMaker model inference
-├── integrated_olive_dashboard.py       # Complete platform UI
-├── brandon_original_dashboard.py       # ML-focused dashboard
-└── standalone_agent_demo.py           # Conversational AI demo
-```
-
 ## 🔧 Technical Implementation
 
 ### AWS Services Used
@@ -179,19 +158,6 @@ This project was developed as part of the UC Berkeley Master of Information and 
 - Real-world application to commodity markets
 - Integration of multiple AI/ML services
 
-## 📈 Business Impact
-
-### Value Proposition
-- **Technical Users**: Advanced ML controls and statistical analysis
-- **Business Users**: Natural language market intelligence
-- **Decision Makers**: Data-driven insights for procurement and trading
-
-### Market Applications
-- Commodity trading firms
-- Food manufacturing companies
-- Agricultural cooperatives
-- Supply chain management
-- Risk assessment and hedging
 
 ## 🚀 Future Enhancements
 
@@ -203,4 +169,4 @@ This project was developed as part of the UC Berkeley Master of Information and 
 
 ---
 
-*Built with 🫒 using AWS AI/ML services by UC Berkeley MIDS students*
+*Built using AWS AI/ML services by UC Berkeley MIDS students*
