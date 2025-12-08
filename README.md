@@ -69,11 +69,6 @@ The system provides real market intelligence:
 
 Explore price predictions, market drivers, and natural language queries in one unified interface.
 
-**Run Locally:**
-```bash
-streamlit run integrated_olive_dashboard.py
-```
-
 ## 🔧 Technical Implementation
 
 ### AWS Services Used
