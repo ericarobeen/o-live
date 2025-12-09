@@ -96,18 +96,20 @@ Explore price predictions, market drivers, and natural language queries in one u
 
 Multi-source dataset combining retail prices, macroeconomic indicators, freight indices, and tariff schedules, creating a comprehensive week-by-week view of global olive oil markets.
 
-### Multi-Source Dataset
-- **Retail Prices**: Weekly olive oil prices across grades and countries
-- **Macroeconomic Indicators**: Diesel prices, currency exchange rates
-- **Freight Indices**: Ocean shipping costs and logistics data
-- **Tariff Schedules**: Trade policy and import/export regulations
+### Data Sources
+- **[EU Market Observatory](https://agriculture.ec.europa.eu/data-and-analysis/markets/price-data/price-monitoring-sector/olive-oil_en)**: Weekly retail/wholesale olive oil prices by grade and country
+- **[FRED (Federal Reserve)](https://fred.stlouisfed.org/series/DEXUSEU)**: Daily EUR/USD exchange rates for price alignment
+- **[Freightos Baltic Index (FBX)](https://fbx.freightos.com)**: Weekly ocean freight benchmarks
+- **[EIA](https://www.eia.gov/petroleum/gasdiesel/)**: Weekly U.S. diesel prices for transportation costs
+- **[USITC](https://hts.usitc.gov/)**: U.S. duty rates and tariff schedules
+- **[BLS PPI](https://www.bls.gov/ppi/)**: Monthly packaging material costs (glass, plastic, steel)
 
 ### Automated Data Pipeline
 Fully automated, quality-controlled data pipeline that:
-- Standardizes formats across diverse sources
-- Aligns weekly timestamps for temporal consistency
-- Validates ranges with automated quality checks
-- Produces reliable, ML-ready economic panel for forecasting and supply-chain insights
+- **Format Standardization**: Unified data schemas across sources
+- **Temporal Alignment**: Weekly timestamp synchronization
+- **Range Validation**: Automated quality checks and anomaly detection
+- **ML-Ready Output**: Clean economic panel for forecasting and supply-chain insights
 
 ## 🤖 Model
 
