@@ -65,7 +65,7 @@ The system provides real market intelligence:
 ### O-Live AI Platform Demo
 
 🌐 **Live Platform:** [http://3.238.252.107:8501/](http://3.238.252.107:8501/)  
-🎥 **Demo Video:** [Watch Demo](https://raw.githubusercontent.com/ericarobeen/o-live/main/demo/video3011933952.mp4)
+🎥 **Demo Video:** [Watch Demo](https://raw.githubusercontent.com/ericarobeen/o-live/main/demo/video1908738861.mp4)
 
 Explore price predictions, market drivers, and natural language queries in one unified interface.
 
