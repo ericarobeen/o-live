@@ -135,11 +135,11 @@ Production-ready ML pipeline with automated training, versioning, and real-time 
 
 Built by students in the [UC Berkeley MIDS](https://www.ischool.berkeley.edu/programs/mids) program:
 
-- **[Brandon Gillenwaters](https://www.linkedin.com/in/brandon-gillenwaters/)** - SageMaker ML pipeline, forecasting models, data engineering
-- **[Erica Robeen](https://www.linkedin.com/in/erica-robeen/)** - Conversational AI, system orchestration, Lambda tools
-- **[Mahesh Nidhruva](https://www.linkedin.com/in/mahesh-nidhruva/)** - Supply chain analytics, market analysis, procurement optimization
-- **[Patrick Abousleiman](https://www.linkedin.com/in/patrick-abousleiman/)** - Data engineering, infrastructure, pipeline development
-- **[Rebecca Baugh](https://www.linkedin.com/in/rebecca-baugh/)** - Team coordination, stakeholder engagement, project development
+- **[Brandon Gillenwaters](https://www.linkedin.com/in/brandon-gillenwaters/)** 
+- **[Erica Robeen](https://www.linkedin.com/in/erica-robeen/)** 
+- **[Mahesh Nidhruva](https://www.linkedin.com/in/mahesh-nidhruva/)** 
+- **[Patrick Abousleiman](https://www.linkedin.com/in/patrick-abousleiman/)** 
+- **[Rebecca Baugh](https://www.linkedin.com/in/rebecca-baugh/)**
 
 ### Special Thanks to Our Project Advisors
 
@@ -170,5 +170,6 @@ This project was developed as part of the UC Berkeley Master of Information and 
 - API marketplace for third-party integration
 
 ---
+
 
 *Built using AWS AI/ML services by UC Berkeley MIDS students*
